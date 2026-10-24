@@ -1,0 +1,1 @@
+{"data":{"repositoryOwner":null},"errors":[{"type":"NOT_FOUND","path":["repositoryOwner"],"locations":[{"line":1,"column":30}],"message":"Could not resolve to a RepositoryOwner with the login of 'nobody-here-0'."}]}

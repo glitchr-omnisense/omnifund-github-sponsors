@@ -1,0 +1,1 @@
+{"data":{"repositoryOwner":{"sponsors":{"pageInfo":{"hasNextPage":false,"endCursor":"Y3Vyc29yOnYyOpIAzQeT"},"nodes":[{"__typename":"User","login":"bob","name":null,"avatarUrl":"https://avatars.githubusercontent.com/u/4?v=4","url":"https://github.com/bob"}]}}}}
