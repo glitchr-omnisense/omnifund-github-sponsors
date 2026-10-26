@@ -1,6 +1,6 @@
 # omnifund/github-sponsors
 
-GitHub Sponsors for [omniscient/omnifund](https://github.com/glitchr-studio/omnifund), under any
+GitHub Sponsors for [omnisense/omnifund](https://github.com/glitchr-omnisense/omnifund), under any
 PHP host: a user's or an organization's listing read through GitHub's GraphQL API - its page,
 its goal, its tiers, the number of sponsors and the public ones.
 

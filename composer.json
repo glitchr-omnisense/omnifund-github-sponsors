@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Omnifund's GitHub Sponsors, under any PHP host: a user's or an organization's listing read through GitHub's GraphQL API - its page, its goal, its tiers, the number of sponsors and the public ones.",
     "keywords": ["sponsors", "github-sponsors", "github", "graphql", "funding", "framework-agnostic", "omnifund"],
-    "homepage": "https://github.com/glitchr-studio/omnifund-github-sponsors",
+    "homepage": "https://github.com/glitchr-omnisense/omnifund-github-sponsors",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "omniscient/omnifund": "^1.0@dev",
+        "omnisense/omnifund": "^1.0@dev",
         "symfony/http-client-contracts": "^3.0"
     },
     "require-dev": {

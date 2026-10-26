@@ -29,7 +29,7 @@ final class GitHubSponsorsFactory extends ProviderFactory
             'omnifund.factory_title' => 'GitHub Sponsors',
             'omnifund.required_options' => ['account', 'token'],
             'endpoint' => GitHubSponsorsProvider::ENDPOINT,
-            'user_agent' => 'omnifund (+https://github.com/glitchr-studio/omnifund)',
+            'user_agent' => 'omnifund (+https://github.com/glitchr-omnisense/omnifund)',
         ]);
     }
 

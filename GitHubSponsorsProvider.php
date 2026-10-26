@@ -37,7 +37,7 @@ final class GitHubSponsorsProvider implements ProfileInterface, SponsorsInterfac
         private readonly string $account,
         private readonly string $token,
         private readonly string $endpoint = self::ENDPOINT,
-        private readonly string $userAgent = 'omnifund (+https://github.com/glitchr-studio/omnifund)',
+        private readonly string $userAgent = 'omnifund (+https://github.com/glitchr-omnisense/omnifund)',
     ) {
     }
 

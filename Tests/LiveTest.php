@@ -22,7 +22,7 @@ final class LiveTest extends TestCase
         if ('' === $token) {
             self::markTestSkipped('No OMNIFUND_GITHUB_TOKEN: GitHub answers no anonymous GraphQL call.');
         }
-        $provider = new GitHubSponsorsProvider(HttpClient::create(['timeout' => 20]), 'glitchr-studio', $token, userAgent: 'omnifund-tests/1.0 (+https://github.com/glitchr-studio/omnifund)');
+        $provider = new GitHubSponsorsProvider(HttpClient::create(['timeout' => 20]), 'glitchr-studio', $token, userAgent: 'omnifund-tests/1.0 (+https://github.com/glitchr-omnisense/omnifund)');
 
         $profile = $provider->profile();
         self::assertSame('glitchr-studio', $profile->handle);

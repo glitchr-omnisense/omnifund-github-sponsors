@@ -47,7 +47,7 @@ final class GitHubSponsorsProviderTest extends TestCase
         self::assertSame('POST', $this->requests[0]['method']);
         self::assertSame('https://api.github.com/graphql', $this->requests[0]['url']);
         self::assertContains('Authorization: Bearer ghp_test', $this->header(0));
-        self::assertContains('User-Agent: omnifund (+https://github.com/glitchr-studio/omnifund)', $this->header(0));
+        self::assertContains('User-Agent: omnifund (+https://github.com/glitchr-omnisense/omnifund)', $this->header(0));
         $body = $this->body(0);
         self::assertSame(['login' => 'octo-studio'], $body['variables']);
         self::assertIsString($body['query']);
